@@ -1,0 +1,112 @@
+.contact-top-container {
+    @include width-height(100%, 100vh);
+}
+
+.contact-form-container {
+    @include width-height(65%, 400px);
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 7px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+.form-headline {
+    @include width-height(100%, 30px);
+    text-align: center;
+    padding-top: 10px;
+
+    h1 {
+        font-size: 23px;
+        font-weight: 700;
+    }
+}
+
+.input-container {
+    @include width-height(80%, 250px);
+    background: rgba(58, 58, 58, 0.9);
+    border-radius: 7px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+.input-left {
+    @include width-height(45%, 100%);
+    // background: turquoise;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: stretch;
+    
+    input {
+        @include width-height(90%, 30px);
+        border-radius: 7px;
+        font-size: 15px;
+        padding: 5px;
+        border: 0px solid;
+    }
+
+    input::placeholder {
+        color: darkturquoise;
+        font-style: italic;
+
+    }
+
+    input:focus{
+        outline: none;
+    }
+}
+
+.input-right {
+    @include width-height(45%, 90%);
+    // background: turquoise;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    textarea {
+        @include width-height(95%, 95%);
+        border-radius: 7px;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    textarea::placeholder {
+        color: darkturquoise;
+        font-style: italic;
+    }
+
+    textarea:focus{
+        outline: none;
+    }
+
+}
+
+.submit-button {
+    @include width-height(70%, 40px);
+    background: rgba(58, 58, 58, 0.9);
+    text-align: center;
+    border-radius: 7px;
+
+
+    h1 {
+        color: darkturquoise;
+        margin-top: 12px;
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,113 @@
+// .projects-top-container {
+//     @include width-height(100%, 100vh);
+//     // background-image: url("../assets/images/thomas-kvistholt-191153.jpg");
+//     // background-size: cover;
+//     // background-attachment: fixed;
+//     // scroll-behavior: smooth;
+// }
+
+.projects-main-container {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.project-row-1 {
+    width: 80%;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: inset 0px 0px 7px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 7px 1px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 7px 1px rgba(0,0,0,0.75);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row-1-left {
+    @include width-height(40%, 80%);
+    background: turquoise;
+    margin-left: 7.5%;
+}
+
+.row-1-right {
+    @include width-height(40%, 80%);
+    background: turquoise;
+    margin-right: 7.5%;
+}
+
+.project-row-2 {
+    width: 80%;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: inset 0px 0px 7px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 7px 1px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 7px 1px rgba(0,0,0,0.75);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: center;
+    margin-bottom: 20px;    
+}
+
+.row-2-left {
+    @include width-height(40%, 80%);
+    background: turquoise;
+    margin-left: 7.5%;
+}
+
+.row-2-right {
+    @include width-height(40%, 80%);
+    background: turquoise;
+    margin-right: 7.5%;    
+}
+
+.project-row-3 {
+    width: 80%;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: inset 0px 0px 7px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 7px 1px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 7px 1px rgba(0,0,0,0.75);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: center;
+    margin-bottom: 20px;    
+}
+
+.row-3-left {
+    @include width-height(40%, 80%);
+    background: turquoise;
+    margin-left: 7.5%;    
+}
+
+.row-3-right {
+    @include width-height(40%, 80%);
+    background: turquoise;
+    margin-right: 7.5%;    
+}

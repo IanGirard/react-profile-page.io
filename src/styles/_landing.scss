@@ -1,0 +1,86 @@
+.landing-main {
+    @include width-height(100%, 100vh);
+    // background-image: url("../assets/images/thomas-kvistholt-191153.jpg");
+    // background-size: cover;
+    // background-attachment: fixed;
+    // scroll-behavior: smooth;
+}
+
+.landing-top-container {
+    // @include width-height(100%, 100vh);
+    // background-image: url("../assets/images/thomas-kvistholt-191153.jpg");
+    // background-size: cover;
+    // background-attachment: fixed;
+}
+
+.landing-hero-container {
+    color: black;
+    // border: 2px solid red;
+    @include width-height(70%, 275px);
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    // padding-top: 15%;
+}
+
+.landing-hero-title {
+    font-size: 50px;
+    letter-spacing: 4px;
+    padding-bottom: 3px;
+}
+
+.landing-hero-subtitle {
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+.landing-hero-intro {
+    width: 60%;
+    font-size: 18px;
+}
+
+// --- MAIN CONTENT SECTION --- //
+
+
+.main-content-conatiner {
+    @include width-height(100%, 400px);
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+.main-content-title {
+    font-size: 23px;
+}
+
+.main-content-box-container {
+    @include width-height(100%, 100%);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+.main-content-box {
+    @include width-height(25%, 250px);
+    background: darkgrey;
+    border: 2px solid darkgrey;
+    border-radius: 1px;
+
+
+    img {
+        border-radius: 7px;
+        @include width-height(90%, 90%);
+    }
+}

@@ -1,0 +1,18 @@
+@import 'reset';
+@import 'mixins';
+@import 'variables';
+
+
+@import 'landing';
+@import 'navbar';
+@import 'footer';
+@import 'contact';
+@import 'projects';
+
+body {
+    @include width-height(100%, 100vh);
+    background-image: url("../assets/images/thomas-kvistholt-191153.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}

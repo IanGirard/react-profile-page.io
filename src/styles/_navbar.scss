@@ -1,0 +1,40 @@
+.navbar-main {
+  
+}
+
+
+.navbar-list {
+    background: rgba(255, 255, 255, 0.9);
+    height: 65px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+    align-content: stretch;
+    padding-right: 20px;
+    
+    a {
+        // border: 1px solid red;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        color: turquoise;
+    }
+
+}
+
+.about-link {
+    padding: 15px;
+}
+
+.projects-link {
+    padding: 15px;
+}
+
+.contact-link {
+    padding: 15px;
+}
