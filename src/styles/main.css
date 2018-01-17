@@ -76,36 +76,6 @@ table {
   width: 60%;
   font-size: 18px; }
 
-.main-content-conatiner {
-  width: 100%;
-  height: 400px;
-  background: rgba(255, 255, 255, 0.8);
-  text-align: center; }
-
-.main-content-title {
-  font-size: 23px; }
-
-.main-content-box-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: stretch; }
-
-.main-content-box {
-  width: 25%;
-  height: 250px;
-  background: darkgrey;
-  border: 2px solid darkgrey;
-  border-radius: 1px; }
-  .main-content-box img {
-    border-radius: 7px;
-    width: 90%;
-    height: 90%; }
-
 .navbar-list {
   background: rgba(255, 255, 255, 0.9);
   height: 65px;
@@ -247,7 +217,8 @@ table {
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
-  align-content: center; }
+  align-content: center;
+  text-align: center; }
 
 .project-row-1 {
   width: 80%;
@@ -273,13 +244,26 @@ table {
   width: 40%;
   height: 80%;
   background: turquoise;
-  margin-left: 7.5%; }
+  margin-left: 7.5%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  .row-1-left img {
+    width: 100%;
+    height: 100%; }
+
+.row-1-left:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 .row-1-right {
   width: 40%;
   height: 80%;
   background: turquoise;
-  margin-right: 7.5%; }
+  margin-right: 7.5%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.row-1-right:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 .project-row-2 {
   width: 80%;
@@ -304,13 +288,26 @@ table {
   width: 40%;
   height: 80%;
   background: turquoise;
-  margin-left: 7.5%; }
+  margin-left: 7.5%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.row-2-left:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 .row-2-right {
   width: 40%;
   height: 80%;
   background: turquoise;
-  margin-right: 7.5%; }
+  margin-right: 7.5%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  .row-2-right img {
+    width: 100%;
+    height: 100%; }
+
+.row-2-right:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 .project-row-3 {
   width: 80%;
@@ -335,13 +332,26 @@ table {
   width: 40%;
   height: 80%;
   background: turquoise;
-  margin-left: 7.5%; }
+  margin-left: 7.5%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  .row-3-left img {
+    width: 100%;
+    height: 100%; }
+
+.row-3-left:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 .row-3-right {
   width: 40%;
   height: 80%;
   background: turquoise;
-  margin-right: 7.5%; }
+  margin-right: 7.5%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.row-3-right:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 body {
   width: 100%;

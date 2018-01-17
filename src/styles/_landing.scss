@@ -52,35 +52,35 @@
 // --- MAIN CONTENT SECTION --- //
 
 
-.main-content-conatiner {
-    @include width-height(100%, 400px);
-    background: rgba(255, 255, 255, 0.8);
-    text-align: center;
-}
+// .main-content-conatiner {
+//     @include width-height(100%, 400px);
+//     background: rgba(255, 255, 255, 0.8);
+//     text-align: center;
+// }
 
-.main-content-title {
-    font-size: 23px;
-}
+// .main-content-title {
+//     font-size: 23px;
+// }
 
-.main-content-box-container {
-    @include width-height(100%, 100%);
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: stretch;
-}
+// .main-content-box-container {
+//     @include width-height(100%, 100%);
+//     display: flex;
+// 	flex-direction: row;
+// 	flex-wrap: nowrap;
+// 	justify-content: space-around;
+// 	align-items: center;
+// 	align-content: stretch;
+// }
 
-.main-content-box {
-    @include width-height(25%, 250px);
-    background: darkgrey;
-    border: 2px solid darkgrey;
-    border-radius: 1px;
+// .main-content-box {
+//     @include width-height(25%, 250px);
+//     background: darkgrey;
+//     border: 2px solid darkgrey;
+//     border-radius: 1px;
 
 
-    img {
-        border-radius: 7px;
-        @include width-height(90%, 90%);
-    }
-}
+//     img {
+//         border-radius: 7px;
+//         @include width-height(90%, 90%);
+//     }
+// }
