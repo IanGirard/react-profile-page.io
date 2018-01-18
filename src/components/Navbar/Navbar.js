@@ -5,9 +5,9 @@ class Navbar extends Component {
         return (
             <div className="navbar-main">
                 <ul className="navbar-list">
-                    <li className="about-link"><a href="http://localhost:3000/#/">HOME</a></li>
-                    <li className="projects-link"><a href="http://localhost:3000/#/projects">PROJECTS</a></li>
-                    <li className="contact-link"><a href="http://localhost:3000/#/contact">CONTACT</a></li>
+                    <li className="about-link"><a href="https://iangirard.github.io/react-profile-page.io/#/">HOME</a></li>
+                    <li className="projects-link"><a href="https://iangirard.github.io/react-profile-page.io/#/projects">PROJECTS</a></li>
+                    <li className="contact-link"><a href="https://iangirard.github.io/react-profile-page.io/#/contact">CONTACT</a></li>
                 </ul>
             </div>
         );

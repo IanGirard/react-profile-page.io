@@ -4,6 +4,7 @@
   "private": true,
   "main": "./server/server.js",
   "proxy": "http://localhost:4242/",
+  "homepage": "https://IanGirard.github.io/react-profile-page.io",
   "dependencies": {
     "axios": "^0.17.1",
     "body-parser": "^1.18.2",
@@ -23,6 +24,10 @@
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy" : "npm run build&&gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
   }
 }
