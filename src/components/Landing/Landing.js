@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-// import backgroundImage from '../../assets/images/sebastien-gabriel-232358.jpg';
-// import screenShotOne from '../../assets/project-images/screenShotOne.png';
-// import screenShotTwo from '../../assets/project-images/screenShotTwo.png';
-// import screenShotThree from '../../assets/project-images/screenShotThree.png';
+
 
 
 class Landing extends Component {
@@ -21,14 +18,6 @@ class Landing extends Component {
                 </div>
               </div>
               </div>
-              {/* <div className="main-content-conatiner">
-                <h1 className="main-content-title">Projects</h1>
-                <div className="main-content-box-container">
-                    <div className="main-content-box"><img src={screenShotOne} alt="screen-shot-one"/></div>
-                    <div className="main-content-box"><img src={screenShotTwo} alt="screen-shot-two"/></div>
-                    <div className="main-content-box"><img src={screenShotThree} alt="screen-shot-"/></div>
-                </div>
-              </div> */}
               <div><Footer/></div>            
             </div>
         );
